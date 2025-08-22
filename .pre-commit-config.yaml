@@ -1,0 +1,21 @@
+repos:
+  - repo: https://github.com/astral-sh/uv-pre-commit
+    rev: 0.6.12
+    hooks:
+      - id: uv-lock
+      - id: uv-export
+        args: ["--no-hashes", "--frozen", "--output-file=requirements.txt"]
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.11.5
+    hooks:
+      - id: ruff
+        args: [ --fix ]
+      - id: ruff-format
+  - repo: local
+    hooks:
+      - id: pytest
+        name: pytest
+        entry: bash -c "python -m pytest || [ $? -eq 5 ]"
+        language: system
+        pass_filenames: false
+        always_run: true

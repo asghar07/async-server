@@ -1,0 +1,2 @@
+ASYNC_GITHUB_APP_ID = -1
+ASYNC_GITHUB_APP_LOGIN = "your app login"

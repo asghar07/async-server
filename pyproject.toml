@@ -1,0 +1,52 @@
+[project]
+name = "async-agent"
+version = "0.1.0"
+description = "Async Agent!"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "async-lru>=2.0.5",
+    "claude-code-sdk>=0.0.20",
+    "duckduckgo-search>=6.3.0",
+    "fastapi[standard]>=0.115.12",
+    "firebase-admin>=6.7.0",
+    "gcloud-aio-storage>=9.5.0",
+    "gitpython>=3.1.44",
+    "google-api-python-client>=2.166.0",
+    "google-cloud-run>=0.10.17",
+    "google-cloud-secret-manager>=2.24.0",
+    "google-generativeai>=0.8.5",
+    "httpx>=0.28.1",
+    "langchain>=0.3.23",
+    "langchain-anthropic>=0.3.12",
+    "langchain-community>=0.3.0",
+    "langchain-openai>=0.3.14",
+    "langchain-google-genai>=2.0.7",
+    "langgraph>=0.3.31",
+    "langgraph-checkpoint-postgres==2.0.21",
+    "litellm>=1.65.8",
+    "mcp[cli]>=1.6.0",
+    "mypy>=1.16.1",
+    "openai>=1.73.0",
+    "openevals>=0.1.0",
+    "pre-commit>=4.2.0",
+    "psycopg[binary,pool]>=3.2.6",
+    "pydantic>=2.11.3",
+    "pytest>=8.3.5",
+    "pytest-asyncio>=1.1.0",
+    "resend>=2.10.0",
+    "slack-bolt>=1.23.0",
+    "stripe>=12.3.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.5",
+]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+
+[tool.ruff]
+line-length = 120
+
