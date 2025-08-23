@@ -1,4 +1,6 @@
-# Async
+<p align="center">
+  <img src="assets/async-text-logo.png" alt="Async Logo" width="400">
+</p>
 
 An open-source developer tool that combines AI coding with task management and code review. Async integrates Claude Code + Linear + GitHub PRs into one opinionated workflow.
 
