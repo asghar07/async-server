@@ -1,6 +1,8 @@
 <div align="center">
-  <img src="assets/async-logo-light.png#gh-light-mode-only" alt="Async Logo" width="400">
-  <img src="assets/async-logo-dark.png#gh-dark-mode-only" alt="Async Logo" width="400">
+  <a href="https://async.build">
+    <img src="assets/async-logo-light.png#gh-light-mode-only" alt="Async Logo" width="400">
+    <img src="assets/async-logo-dark.png#gh-dark-mode-only" alt="Async Logo" width="400">
+  </a>
 </div>
 
 An open-source developer tool that combines AI coding with task management and code review. Async integrates Claude Code + Linear + GitHub PRs into one opinionated workflow.
