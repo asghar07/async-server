@@ -1,7 +1,9 @@
 <div align="center">
   <a href="https://async.build">
-    <img src="assets/async-logo-light.png#gh-light-mode-only" alt="Async Logo" width="400">
-    <img src="assets/async-logo-dark.png#gh-dark-mode-only" alt="Async Logo" width="400">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/async-logo-dark.png">
+      <img src="assets/async-logo-light.png" alt="Async Logo" width="400">
+    </picture>
   </a>
 </div>
 
