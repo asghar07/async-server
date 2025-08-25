@@ -9,7 +9,9 @@
 
 An open-source developer tool that combines AI coding with task management and code review. Async integrates Claude Code + Linear + GitHub PRs into one opinionated workflow.
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/98k42b8GF4s/0.jpg)](https://www.youtube.com/watch?v=98k42b8GF4s)
+<div align="center">
+  <video src="assets/async-demo.mp4" width="700" controls></video>
+</div>
 
 ## What Async Does
 
